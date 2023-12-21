@@ -1,0 +1,58 @@
+/* css/signup.css */
+
+/* Apply styles to the body or overall layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for signup form */
+.signup-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Signup form styles */
+.signup-container h1 {
+    margin-bottom: 20px;
+}
+
+.signup-container form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.signup-container .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-container .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Go back link styles */
+.signup-container a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.signup-container a:hover {
+    color: #0056b3;
+}
